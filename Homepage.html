@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--This Project is to test out how well I can develop a website with the skills that I
+        am learning so far. My main goal for this project is to turn this test project
+        into an actual website, so I can prove my worth in the silicon valley.-->
+        
+    
+        <meta charset= "UTF-8">
+        <link rel="stylesheet" href="PHLayoutScheme.css">
+       
+        <title>HOME| PROJECT HOMEPAGE</title>
+        <br>
+         
+       <script>
+        
+        function Action()
+        {
+            alert("oy!");    
+        }
+        
+       </script>
+       <div style="width:75px; height: 75px; color:red;" onAction="Action();">Hello!</div>"
+       <h1><a href="Homepage.html">PROJECT HOMEPAGE</a></h1>
+       <br>
+        <script src="example.js" type="text/javascript"></script>
+       <div>
+       <h4><a href="Homepage.html">HOME</a>&nbsp;PHOTOS&nbsp;VIDEOS&nbsp;ABOUT</h4>
+       </div>
+       <br>
+       <caption>Table Test</caption>
+       <table border="1">
+        <tr>
+            <th>Name</th><th>fav.color</th>
+        </tr>
+        <tr>
+            <td>Paul</td><td>blue</td>
+        </tr>
+        <tr>
+            <td>Drew</td><td>brown</td>
+        </tr>
+       </table>
+       <br>
+       <div>
+       <form action="HomepageInfoDestination.html" method="post"> <!--The Difference Between the GET Method and the POST Method is that
+       the Get Method applies information that the user has applied to the website via link. The GET Method is hardly used for this due to the fact that
+       it can leak sensitive user information via Hyperlink. the POST Method does not do this.-->
+        <fieldset>
+            <legend style="color:lime; font-family: VT323">F O R M</legend>
+            <label style="color:lime; font-family: VT323;" for= "email">E-Mail:</label><input style="color: lime; background-color:black; border-color: black; font-family:VT323;" id="email" type="text" name"" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="please enter a valid email address. example: example@example.com"><br>
+            <label style="color: lime; font-family: VT323;" for= "username">Username:</label><input style="color: lime; background-color:black; border-color: black; font-family:VT323;"type="text" name="" id="username"  autofocus required> <br>
+            <label style="color: lime; font-family: VT323;"for= "password">Password:</label><input style="color:lime; background-color:black; border-color: black; font-family:VT323;" type="password"name="" id="password" required> <br>
+            <select name="gender" required>
+                <option value=""> </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="preferNotToSay">Prefer not to say</option>
+            </select>
+            
+            <input style="color:blue; background-color:black; font-family:VT323;" type="submit" value="Log In">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>B O O K I N G  D E T A I L S</legend>
+            <p>Are you waiting?</p>
+            <label for="waiting">yes</label><input type="radio" name="waiting" value="yes">
+            <label for="waiting">no</label><input type="radio" name="waiting" value="no">
+            <label for="waiting">what?</label><input type="radio" name="waiting" value="what?">
+            
+        </fieldset>
+       </form>
+       </div>
+       <br>
+       <h2 id="header">Welcome to Project Homepage</h2>
+       <br>
+       <p>
+        Project Homepage is a small project created by Dillon Torre<br>
+        to test out his skills on web development. From HTML to Javascript<br>
+        To CSS and SQL and much more. He is expecting to create websites<br>
+        that are both functionable and easy to look at. 
+       </p>
+       <br>
+       <img src="Photos/TestImage.png">
+       <br>
+       
+       
+    </head>
+    <body>
+       <canvas id="gc" width="400" height="400"></canvas>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+head {
+    background-color:black;
+    
+}
+body {
+    background-color:black;
+    
+}
+h1 {
+    font-size:60px;
+    color:white;
+    text-align:center;
+    font-family: VCR OSD Mono;
+    border: solid lime;
+}
+h4 {
+    font-size:30px;
+    font-family: VCR OSD Mono;
+    color: lime;
+}
+h2{
+    font-size:16px;
+    color:lime;
+    font-family: VT323;
+}
+p {
+    font-size:12px;
+    color:lime;
+    font-family: VT323;
+}
+
+button {
+    color: black;
+    background-color: lime;
+    font-family: VT323;
+    border-color:black;
+}
+th {
+    font-size: 11px;
+    color: blue;
+    font-family: VT323;
+}
+td {
+    font-size: 11px;
+    color: red;
+    font-family: VT323;
+}
+legend {
+    color:white;
+    font-family:VT323;
+}
+input {
+    color: blue;
+    font-family:VT323;
+}
+label {
+     font-size:12px;
+    color:lime;
+    font-family: VT323;
+}
+option {
+    font-size:12px;
+    background-color:black;
+    color:lime;
+    font-family: VT323;
+    
+}
